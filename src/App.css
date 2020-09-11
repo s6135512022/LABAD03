@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: bisque;
 }
 .App-logo {
   height: 40vmin;
@@ -21,18 +22,8 @@
   color: white;
 }
 .App-link {
-  color: #61dafb;
+  color:black;
 }
-.card {
-  display: inline-block;
-  text-align: center;
-  width: 3em;
-  font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 1em;
-  user-select: none;
- }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -41,3 +32,17 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  background-color: yellow ;
+  user-select: none;
+ }
+ .activeCard {
+  color: red;
+  background: pink;
+ }
